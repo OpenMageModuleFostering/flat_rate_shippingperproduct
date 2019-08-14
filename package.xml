@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Flat_Rate_ShippingPerProduct</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Flat rate shipping per product</summary>
+    <description>Flat rate shipping per product</description>
+    <notes>Flat rate shipping per product</notes>
+    <authors><author><name>Magebuzz</name><user>magebuzz</user><email>magebuzz@gmail.com</email></author></authors>
+    <date>2014-07-23</date>
+    <time>04:24:52</time>
+    <contents><target name="magecommunity"><dir name="Magebuzz"><dir name="Flatrateperproduct"><dir name="Helper"><file name="Data.php" hash="87b9589caad03158078b4a8d88dfcfa5"/></dir><dir name="Model"><dir name="Carrier"><file name="Flatrateperproduct.php" hash="5e022804bbdc67396caec0ba039c44ef"/></dir></dir><dir name="etc"><file name="config.xml" hash="7b8a8a9bcab49f59bf240586046c996e"/><file name="system.xml" hash="e18ea1bbff02ac9e8addeeea66b759e1"/></dir><dir name="sql"><dir name="flatrateperproduct_setup"><file name="mysql4-install-0.1.0.php" hash="8b73c78ac10e750dc5bdbb4f8908da00"/></dir></dir></dir><dir name="Info"><dir name="Block"><dir name="System"><dir name="Config"><file name="Extensions (2).php" hash="aa5773e8b5dc6a33b9d4cc1154fbb69d"/><file name="Extensions.php" hash="aa5773e8b5dc6a33b9d4cc1154fbb69d"/><file name="General.php" hash="2cbe45ec38e2fc090141d0df421bed6e"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="7582d16054340a767e7ed5190e71b0ad"/></dir><dir name="Model"><file name="Feed.php" hash="aa72a9d25541f123978c8598af191274"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4f60efb5ce51a052113a0e895c925fbc"/><file name="config.xml" hash="bc04f45fa0580e0f26a611e14fc2ca74"/><file name="system.xml" hash="ea315b0f9ca775ce9d11e373ba50d6d2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magebuzz_Flatrateperproduct.xml" hash="d69dc9403e6cabdec1396575b334d24e"/><file name="Magebuzz_Info.xml" hash="81abb2ad3ff3428ae5b3b7c5aa04b937"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Magebuzz_Flatrateperproduct.csv" hash="a1dc577fa53f95a1918abbd339a58260"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="magebuzz"><file name="facebook.png" hash="d6b1bea3a11c7cf5374e2937d731e315"/><file name="ok.gif" hash="a38bc2ee6e116e39c6e2e3013ee50f5e"/><file name="twitter.png" hash="9b6278124eaa0b2c19a2253bd844bbb4"/><file name="update.gif" hash="8342e11f7739fcfa25134707f0536ed6"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
