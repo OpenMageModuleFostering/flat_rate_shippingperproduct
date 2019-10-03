@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Flat_Rate_ShippingPerProduct",
+    "name": "OpenMageModuleFostering\/Flat_Rate_ShippingPerProduct",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Flat rate shipping per product",
     "authors": [
-    {
-        "name": "Magebuzz",
-        "email": "magebuzz@gmail.com"
-    }
-],
+        {
+            "name": "Magebuzz",
+            "email": "magebuzz@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
